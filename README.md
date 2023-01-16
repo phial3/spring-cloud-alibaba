@@ -13,6 +13,15 @@ Spring Cloud Alibaba provides a one-stop solution for distributed application de
 
 With Spring Cloud Alibaba, you only need to add some annotations and a small amount of configurations to connect Spring Cloud applications to the distributed solutions of Alibaba, and build a distributed application system with Alibaba middleware.
 
+| 名称     | SpringCloud        | SpringCloudAlibaba  |
+| -------- | ------------------ | ------------------- |
+| 注册中心 | Eureka、Consul     | Nacos               |
+| 配置中心 | SpringCloud Config | Nacos               |
+| 网 关    | SpringCloud Zuul   | SpringCloud Gateway |
+| 负载均衡 | Ribbon             | Loadbalancer        |
+| 熔断降级 | Hystrix            | Sentinel            |
+| 服务调用 | Feign              | OpenFeign           |
+
 
 ## Features
 
